@@ -5,9 +5,10 @@ Recurly JS Client Library
 -------------------------
 
 Recurly.js is a Javascript library which allows you to easily embed and customize PCI compliant forms within
-your website. HMAC digital signatures are used to verify information sent to Recurly via your customer's browser.
-The signature validates that parameters you have specified in your HTML have not been tampered with before
-being received by Recurly. The client library consists of helper methods to create and verify signatures.
+your website. HMAC digital signatures are used to verify information sent to [Recurly](http://recurly.com/) 
+via your customer's browser. The signature validates that parameters you have specified in your HTML have not 
+been tampered with before being received by Recurly. The client library consists of helper methods to create 
+and verify signatures.
 
 Documentation: http://docs.recurly.com/recurlyjs
 
@@ -30,7 +31,7 @@ Using maven:
 <dependency>
     <groupId>za.co.trf.recurly</groupId>
     <artifactId>recurly-integration-library</artifactId>
-    <version>1.0</version>
+    <version>2.1.0</version>
 </dependency>
 ```
 
@@ -38,7 +39,9 @@ Using maven:
 Configuration and Usage
 -----------------------
 
-For RecurlyJS usage, please refer to the JUnit test cases in RecurlyJSTest]
+For RecurlyJS usage, please see the 
+[Sample Application](https://github.com/tfoxcroft/recurly_integration_sample_app) as well as  the JUnit test cases 
+in [RecurlyJSTest]
 (https://github.com/tfoxcroft/recurly_integration/blob/master/src/test/java/za/co/trf/recurly/RecurlyJSTest.java)
 
 The library has been designed with Spring configuration in mind:
